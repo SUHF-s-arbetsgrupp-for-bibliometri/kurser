@@ -1,1 +1,1 @@
-# Material till kurser från arbetsgruppen
+# Material till arbetsgruppens kurser
