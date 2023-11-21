@@ -16,9 +16,12 @@ https://treemaps.openapc.net/apcdata/openapc/
 
 ### Tips för pivot
 Rader: publisher
+
 Kolumner: period
+
 Värden: Antal av doi 
         Medel av apc (lägga till apc och ändra fältinställningar till medel, ändra talformat till utan decimaler och med tusentalsavgränsare)
+
 Filter: is_hybrid
 
 Välj 2018-2022 från kolumnetiketter
