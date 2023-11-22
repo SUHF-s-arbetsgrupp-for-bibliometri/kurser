@@ -15,13 +15,13 @@ https://unpaywall.org/products/simple-query-tool
 
 ### Tips för pkt. 4
 a. Formeln för gold avgörs av om journal_is_in_doaj = SANT/TRUE, 
-    t.ex. =OM(M2=SANT;1;0 )
+    t.ex. =OM(M2=SANT;1;0 )  
 b. Formeln för hybrid avgörs av om host_type = publisher och licens innehåller cc-by,
     t.ex. =OM(OCH(OM(C3="publisher";SANT;FALSKT);
-            OM(ÄRTEXT(D3);OM(HITTA("cc-by";D3);SANT;FALSKT);FALSKT));1;0)
+            OM(ÄRTEXT(D3);OM(HITTA("cc-by";D3);SANT;FALSKT);FALSKT));1;0)  
 c. Formeln för repo avgörs av om host_type = repository,
-    t.ex. =OM(C3="repository";1;0)
-d. Slutligen en kolumn som anger kb_oa_status enligt hierarkin guld-hybrid-bara repo (grön), t.ex. =OM(U2=1;"gold";OM(V2=1;"hybrid";OM(W2=1;"green";"closed")))
+    t.ex. =OM(C3="repository";1;0)  
+d. Slutligen en kolumn som anger kb_oa_status enligt hierarkin guld-hybrid-bara repo (grön), t.ex. =OM(U2=1;"gold";OM(V2=1;"hybrid";OM(W2=1;"green";"closed")))  
 
 ## R
 Du behöver ha biblioteket roadoi i R för att göra den första delen av uppgiften, installera om den saknas.
