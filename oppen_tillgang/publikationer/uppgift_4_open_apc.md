@@ -1,4 +1,4 @@
-# Uppgift med OpenAPC-data (Excel)
+# Uppgift med OpenAPC-data (R/Excel)
 Beräkna snitt-APC för inrapporterade svenska publikationer per förlag 2018-2022 för guld respektive hybrid-publikationer
 
 ## Excel
@@ -25,7 +25,7 @@ Filter: is_hybrid
 Välj 2018-2022 från kolumnetiketter
 Filtrera publisher med värdefilter Antal av doi större än 60. 
 
-Välj olika resultat för is_hybrid för att få resultat för guld (FALSE) respektive hybrid (TRUE).
+Gör olika val för is_hybrid för att få resultat för guld (FALSE) respektive hybrid (TRUE).
 
 ## Frågor
 1. Vad ser du att du behöver tänka på vid tolkning av resultatet?
