@@ -34,7 +34,7 @@ https://treemaps.openapc.net/apcdata/openapc/
     +  Filtrera fram svenska publikationer.
     +  Ladda ner csv-fil.
 
-Alternativ† hela datasetet från https://github.com/OpenAPC/openapc-de/data/apc_de.csv
+Alternativt hela datasetet från https://github.com/OpenAPC/openapc-de/data/apc_de.csv
 
 2. Filtrera och beräkna snitt-APC för svenska publikationer per förlag
 
