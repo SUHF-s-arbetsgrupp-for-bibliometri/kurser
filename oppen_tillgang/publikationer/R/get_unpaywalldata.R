@@ -9,7 +9,7 @@ library(roadoi)
 my_mail <- "your e-mail" # Change this to your e-mail
 
 # list of doi:s to send to Unpaywall
-doi_list <- read.csv("indata/dois_for_upw.csv")
+doi_list <- read.csv("indata/dois_for_upw.csv") # set to correct file path
 
 # fetch data from Unpaywall
 upw_fetch <- purrr::map(doi_list,
