@@ -1,1 +1,1 @@
-# Material till kurstillfället Nätverksvisualisering 15 december
+# Material till kurstillfälle 15 december om nätverksvisualisering
